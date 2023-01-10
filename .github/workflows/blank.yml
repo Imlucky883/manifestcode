@@ -28,6 +28,6 @@ jobs:
       - name : Check docker version
         run : docker --version
       - name : Check docker images
-        run : echo (docker images)
+        run : docker images
 
 
